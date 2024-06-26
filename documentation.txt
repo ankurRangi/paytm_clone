@@ -1,0 +1,7 @@
+1. Create two folders backend & frontend
+2. Inside backend
+    2.1. `npm init`
+    2.2. Create router
+    2.3. Add dependencies cors(), body-parser, jsonwebtoken
+    2.4. Create jwt_secret
+    2.5. 
