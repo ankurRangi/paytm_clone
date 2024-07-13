@@ -4,4 +4,11 @@
     2.2. Create router
     2.3. Add dependencies cors(), body-parser, jsonwebtoken
     2.4. Create jwt_secret
-    2.5. 
+
+
+Transactions for Money Transfer:
+1. DB or node server can be down from time to time, so start a transaction using a session to execute all the steps and if anything fails revert back to original state
+    a. Start a Mongoose Session
+    b. Start a transaction
+    c. use .session(session) after every async snippet to execute it within the transaction.
+
